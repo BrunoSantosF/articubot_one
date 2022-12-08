@@ -5,7 +5,12 @@
     colocando um novo nome para um arquivo urdf.xacro
     como se fosse uma lincagem pra main em C
      -->
-     
-    <xacro:include filename="robot_core.xacro" />
 
+    <xacro:include filename="robot_core.xacro"/>
+
+    <!--Incluindo novo arquivo para controlar o robo no gazebo -->
+    <xacro:include filename="gazebo_control.xacro"/>
+
+
+    
 </robot>
